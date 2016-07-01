@@ -8,14 +8,26 @@ namespace RockPaperScissors
 {
     class StubbornAI : IPlayer
     {
+        //created instance variable to be able to pass through constructor
+      
+        
+    
         public int NextMove()
         {
-            throw new NotImplementedException();
+            return favoriteMove;
         }
 
         public void SaveResult(int myMove, int otherMove)
         {
-            throw new NotImplementedException();
+            
+        }
+
+        // created constructor need to pass one parameter favoriteMove
+        public int favoriteMove;
+       public StubbornAI()
+        {
+            favoriteMove = 2;  
         }
     }
+
 }

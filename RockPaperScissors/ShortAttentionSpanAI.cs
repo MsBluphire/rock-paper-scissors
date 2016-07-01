@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class ShortAttentionSpanAI : IPlayer
+    class ShortAttentionSpanAI :  IPlayer
     {
         public int NextMove()
         {
