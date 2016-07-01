@@ -15,8 +15,13 @@ namespace RockPaperScissors
             //{ "Random 1", new RandomAI() }, 
             {"Randy", new RandomAI() },
             //{ "Random 2", new RandomAI() },
+            {"Tito", new RandomAI() },
             //{ "Other", new OtherAI() },
+            {"Jermaine" , new StubbornAI()},
             //{ "YetAnother", new YetAnotherAI() },
+            {"Marlon", new StubbornAI() },
+            {"Michael", new ShortAttentionSpanAI() },
+            {"Jackie", new ShortAttentionSpanAI() }
         };
 
         static void Main(string[] args)
