@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RockPaperScissors
 {
     class HumanPlayer : IPlayer
-    {
+    { // humanplayer impletements interface IPlayer
         int getNextMove()
         {
             while (true)
