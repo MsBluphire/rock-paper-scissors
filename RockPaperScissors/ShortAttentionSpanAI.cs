@@ -6,22 +6,18 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class ShortAttentionSpanAI :  IPlayer
+    class ShortAttentionSpanAI : IPlayer
     {
-        int playerMove = 0;
+        int previousMove = 0;
 
         public int NextMove()
         {
-            return playerMove;
-            //switch statement or if/else statement would work here
-           
+            return previousMove;
         }
 
         public void SaveResult(int myMove, int otherMove)
         {
-            playerMove = otherMove;
-
-
+           previousMove = otherMove; 
         }
     }
 }

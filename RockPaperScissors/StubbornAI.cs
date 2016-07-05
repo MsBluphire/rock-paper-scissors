@@ -12,6 +12,7 @@ namespace RockPaperScissors
         public int NextMove()
         {
             return favoriteMove;
+           
         }
 
         public void SaveResult(int myMove, int otherMove)
