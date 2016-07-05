@@ -8,10 +8,7 @@ namespace RockPaperScissors
 {
     class StubbornAI : IPlayer
     {
-        //created instance variable to be able to pass through constructor
-      
-        
-    
+                
         public int NextMove()
         {
             return favoriteMove;
@@ -22,9 +19,10 @@ namespace RockPaperScissors
             
         }
 
+        // instance variable to pass through constructor
+       public int favoriteMove;
         // created constructor need to pass one parameter favoriteMove
-        public int favoriteMove;
-       public StubbornAI()
+        public StubbornAI()
         {
             favoriteMove = 2;  
         }

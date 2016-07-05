@@ -108,7 +108,7 @@ namespace RockPaperScissors
 
             int winner = CalculateWinner(p1Choice, p2Choice);
 
-            player1.SaveResult(p1Choice, p2Choice);
+            player1.SaveResult(p1Choice, p2Choice); // This are myMove / otherMove
             player2.SaveResult(p2Choice, p1Choice);
 
             return winner;

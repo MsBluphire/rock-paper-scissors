@@ -8,14 +8,20 @@ namespace RockPaperScissors
 {
     class ShortAttentionSpanAI :  IPlayer
     {
+        int playerMove = 0;
+
         public int NextMove()
         {
-            throw new NotImplementedException();
+            return playerMove;
+            //switch statement or if/else statement would work here
+           
         }
 
         public void SaveResult(int myMove, int otherMove)
         {
-            throw new NotImplementedException();
+            playerMove = otherMove;
+
+
         }
     }
 }
